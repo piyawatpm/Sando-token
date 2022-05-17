@@ -42,7 +42,7 @@ const ModalPopup = ({closePopup}:ModalPopupProps) => {
                 </div>
               </a>
             </div>
-
+{/* 
             <div className="flex items-center justify-center mt-5">
               <a
                 href="/metamask"
@@ -87,8 +87,8 @@ const ModalPopup = ({closePopup}:ModalPopupProps) => {
                   <h1 className="ml-5 pt-2">Phantom</h1>
                 </div>
               </a>
-            </div>
-            <p className="flex items-center justify-center">What’s a Wallet?</p>
+            </div> */}
+            <p className="flex items-center justify-center mt-8">What’s a Wallet?</p>
             <div className="flex items-center justify-center px-10">
               <a
                 href="/wallet"
