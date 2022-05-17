@@ -8,7 +8,8 @@ const ModalPopup = ({closePopup}:ModalPopupProps) => {
         <div className="relative w-auto my-6 mx-auto max-w-3xl">
           {/*content*/}
 
-          <div className="border-0 rounded-[30px] shadow-lg relative flex flex-col w-full bg-[#171717] py-2 px-10 outline-none focus:outline-none">
+          <div className="border-0 roun3
+          ded-[30px] shadow-lg relative flex flex-col w-full bg-[#171717] py-2 px-10 outline-none focus:outline-none">
             {/*header*/}
 
             <button
