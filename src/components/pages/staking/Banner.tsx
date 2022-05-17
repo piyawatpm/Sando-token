@@ -5,8 +5,9 @@ const Banner = (): JSX.Element => {
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10">
       <div className="flex flex-col justify-center items-center">
         <h1 className="uppercase text-4xl text-[#FF0090] font-bold py-5 mb-10">
-          Staking
+          Staking 
         </h1>
+        <h2 className="uppercase text-7xl text-white mb-10 font-bold   ">Comming soon ....</h2>
         <div className="min-w-full mx-auto bg-black rounded-xl shadow-md overflow-hidden md:min-w-1/2 px-20">
           <div
             className="relative overflow-hidden mx-auto w-full container flex py-5 mb-10  bg-cover bg-center md:w-1/2 lg:w-full"
@@ -25,12 +26,9 @@ const Banner = (): JSX.Element => {
                     <h6 className=" text-2xl font-light ">
                       Total Amount Staked
                     </h6>
-                    <h1 className="text-5xl my-5 mb-10 mt-10">
-
-                      1,734,5482.71 SANDO
-                    </h1>
+                    <h1 className="text-5xl my-5 mb-10 mt-10">0 SANDO</h1>
                     <h1 className="text-3xl text-[#41FA00] my-5 mt-10 mb-10">
-                      APR 3075.75 %
+                      APR 100 %
                     </h1>
                   </div>
                 </div>

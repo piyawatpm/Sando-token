@@ -16,8 +16,17 @@ function Contactus(): JSX.Element {
   const [show, setShow] = useState(false);
   const nextStep = (item: any) => {
     item.preventDefault();
+    console.log("testSend");
     setShow(!show);
   };
+
+  const mockData = {
+    email: "piyawat_00101@hotmail.com",
+    subject: "testSubject",
+    message: "testMessage",
+    name: "testName",
+  };
+
   return (
     <div
       className="relative overflow-hidden mx-auto w-full bg-cover bg-center container mt-10"
@@ -77,11 +86,12 @@ function Contactus(): JSX.Element {
                   type="file"
                   accept=".png, .jpg, .jpeg, .MP4"
                   className=" cursor-pointer mt-3
-                file:mr-4 file:py-2 file:px-4
+                file:mr-4 file:py-2 file:px-7 
                 file:rounded-full file:border-0
                 file:text-xs file:font-thin
+            
                 file:bg-[#ff0090] file:text-white
-                hover:file:hover:bg-[#cc0274]"
+                hover:file:hover:bg-[#cc0274] "
                 />
               </label>
             </div>

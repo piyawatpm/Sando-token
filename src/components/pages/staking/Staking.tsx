@@ -5,9 +5,9 @@ const Staking = (): JSX.Element => {
     <div className="relative overflow-hidden mx-auto w-full container py-5 mb-10 px-20">
 
       <h1 className="uppercase text-3xl font-bold text-[#FF0090] mb-5">
-        staking
+        staking 
       </h1>
-
+      <h2 className="uppercase text-5xl text-white mb-10 font-bold   ">Comming soon ....</h2>
       <div
         className="relative overflow-hidden mx-auto w-full container mb-10  bg-cover bg-center rounded-3xl md:w-1/2 lg:w-full"
         style={{

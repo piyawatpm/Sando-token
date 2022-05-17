@@ -27,11 +27,10 @@ const What = (): JSX.Element => {
                   <button className="bg-[#ffb700] hover:bg-[#fb8700] text-black text-lg font-bold py-2 px-10 rounded-full mt-5 mb-10 ml-20">
                     Add SANDO
                   </button>
-                  <a href="" className="ml-5 ">
+                  <a href="#howto" className="ml-5 bg-[#ffb700] hover:bg-[#fb8700] text-black text-lg font-bold py-2 px-10 rounded-full ">
                     How to add SANDO
                   </a>
                 </div>
-              
               </div>
 
               <div className="md:shrink-0 mb-10 mt-5">

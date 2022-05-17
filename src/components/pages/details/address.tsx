@@ -1,6 +1,9 @@
 import React from "react";
 
 const Address = (): JSX.Element => {
+  function copyToClipboard() {
+    navigator.clipboard.writeText("0x98401e4314E069c06078e76D62CA4141621BF414");
+  }
   return (
     <div
       className="relative overflow-hidden mx-auto w-full  bg-cover bg-center container px-20"
@@ -24,44 +27,67 @@ const Address = (): JSX.Element => {
             Sando Token Address
           </h1>
         </div>
-       
 
         <table className="table-fixed">
           <tbody>
             <tr>
               <td className="text-white text-lg font-normal">Name </td>
               <td className="text-white text-lg font-normal px-3"> : </td>
-              <td className=""> 
-              <span className="textgradient-blue text-transparent text-lg font-medium"> SANDO </span>
+              <td className="">
+                <span className="textgradient-blue text-transparent text-lg font-medium">
+                  {" "}
+                  SANDO{" "}
+                </span>
               </td>
             </tr>
             <tr>
               <td className="text-white text-lg font-normal">Symbol</td>
               <td className="text-white text-lg font-normal px-3"> : </td>
-
-              <td className=""> 
-              <span className="textgradient-blue text-transparent text-lg font-medium"> SANDO </span>
-              </td>            </tr>
+              <td className="">
+                <span className="textgradient-blue text-transparent text-lg font-medium">
+                  {" "}
+                  SANDO{" "}
+                </span>
+              </td>{" "}
+            </tr>
             <tr>
               <td className="text-white text-lg font-normal">Decimal</td>
               <td className="text-white text-lg font-normal px-3"> : </td>
-
-              <td className=""> 
-              <span className="textgradient-blue text-transparent text-lg font-medium"> 18 </span>
-              </td>            </tr>
+              <td className="">
+                <span className="textgradient-blue text-transparent text-lg font-medium">
+                  {" "}
+                  18{" "}
+                </span>
+              </td>{" "}
+            </tr>
             <tr>
               <td className="text-white text-lg font-normal">Token Standard</td>
               <td className="text-white text-lg font-normal px-3"> : </td>
 
-              <td className=""> 
-              <span className="textgradient-blue text-transparent text-lg font-medium"> ERC-20 </span>
+              <td className="">
+                <span className="textgradient-blue text-transparent text-lg font-medium">
+                  {" "}
+                  ERC-20{" "}
+                </span>
               </td>
             </tr>
             <tr>
               <td className="text-white text-lg font-normal">Address</td>
               <td className="text-white text-lg font-normal px-3"> : </td>
 
-              <td className="flex textgradient-blue text-lg font-medium  hover:underline"><a href="" className="underline flex">0x98401e4314E069c06078e76D62CA4141621BF414</a> <img src="/images/icons/address-icon.svg" alt="address icon" className="flex w-4 ml-2" /> </td>
+              <button
+                onClick={copyToClipboard}
+                className="flex items-center textgradient-blue text-lg font-medium  hover:underline"
+              >
+                <a href="" className="underline flex">
+                  0x98401e4314E069c06078e76D62CA4141621BF414
+                </a>{" "}
+                <img
+                  src="/images/icons/address-icon.svg"
+                  alt="address icon"
+                  className="flex w-4 ml-2"
+                />{" "}
+              </button>
             </tr>
           </tbody>
         </table>

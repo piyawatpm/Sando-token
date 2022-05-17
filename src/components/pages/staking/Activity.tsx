@@ -46,7 +46,7 @@ const Activity = (): JSX.Element => {
             href="/wallets"
             className="mt-10  bg-[#FF0090] hover:bg-[#CC0073] text-white text-center text-sm font-bold py-2 px-10 rounded-full"
           >
-            Connect Wallet
+            Refresh
           </a>
         </div>
       </div>

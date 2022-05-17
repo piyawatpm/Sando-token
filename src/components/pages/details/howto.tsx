@@ -2,21 +2,27 @@ import React from "react";
 
 const Howto = (): JSX.Element => {
   return (
-    <div className="relative overflow-hidden mx-auto w-full  bg-cover bg-center container px-10">
+    <div
+      id="howto"
+      className="relative overflow-hidden mx-auto w-full  bg-cover bg-center container px-10"
+    >
       <div className="relative overflow-hidden mx-auto w-full container">
-      <div className="min-h-screen flex justify-center items-center mb-20">
-      <div
+        <div className="min-h-screen flex justify-center items-center mb-20">
+          <div
             className="relative overflow-hidden mx-auto container flex py-5 mb-10 bg-cover bg-center h-100 w-full rounded-2xl "
-            style={{ backgroundImage: `url(${'./images/web/bg-howtoadd.png'})` }}
+            style={{
+              backgroundImage: `url(${"./images/web/bg-howtoadd.png"})`,
+            }}
           >
             <div className="rounded-2xl shadow-xl z-20">
               <div className="text-white">
                 <div className="flex justify-center items-center">
-                 
-                  <h1 className="text-4xl font-extrabold text-4xl text-transparent textgradient mt-2 cursor-poiter ml-2 mb-2 ">
-                  How to add  SANDO TOKEN in your                  </h1>
+                  <h1 className="text-4xl font-extrabold text-transparent textgradient mt-2 cursor-poiter ml-2 mb-2 ">
+                    How to add SANDO TOKEN in your{" "}
+                  </h1>
                   <h1 className="Uppercase text-4xl font-black text-transparent textgradient-yellow mt-2 cursor-poiter ml-2 mb-2 ">
-                  METAMASK              </h1>
+                    METAMASK{" "}
+                  </h1>
 
                   <img
                     src="/images/wallets/metamask.svg"
@@ -82,7 +88,7 @@ const Howto = (): JSX.Element => {
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </div>
   );

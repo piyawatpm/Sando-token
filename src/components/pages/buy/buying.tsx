@@ -26,7 +26,7 @@ const Buying = (): JSX.Element => {
                     <div className="w-2 h-2 rounded-full bg-[#39db21] mt-1"></div>
                     <p className="ml-1">Network</p>
                   </div>
-                  <div className="relative dropdown inline-block relative">
+                  <div className="relative dropdown inline-block">
                     <button className="bg-gray-300 text-gray-700 font-semibold py-1 px-4 rounded-full inline-flex items-center">
                       <svg
                         className="fill-current h-4 w-4"
