@@ -54,7 +54,7 @@ function Header(): JSX.Element {
               </li>
             </ul>
 
-            <div className=" dropdown inline-block relative z-10">
+            {/* <div className=" dropdown inline-block relative z-10">
               <button className=" text-white font-semibold py-1 px-1  inline-flex items-center">
                 <span className="mr-1">English</span>
                 <svg
@@ -91,7 +91,7 @@ function Header(): JSX.Element {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             <div className="flex flex-col md:flex-row mt-5 md:mt-0 items-end md:items-center md:justify-end">
               {/*
@@ -103,9 +103,10 @@ function Header(): JSX.Element {
               </button>
                */}
               <div className="flex sr-only  xl:not-sr-only 2xl:not-sr-only ">
-                <div className="relative top-2.5 mb-5 sm:mb-0 sm:mr-5 group text-white font-bold ">
+                
+                {/* <div className="relative top-2.5 mb-5 sm:mb-0 sm:mr-5 group text-white font-bold ">
                   <a href="/login">Login</a> | <a href="/register">Register</a>
-                </div>
+                </div> */}
                 <button
                   // href="/"
                   className=" bg-[#FF0090] hover:bg-[#cc0274] text-white text-sm font-bold py-3 px-5 rounded-full"
